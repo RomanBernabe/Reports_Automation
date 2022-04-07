@@ -1,0 +1,20 @@
+## This script only works if the computer has Excel installed on it ## 
+
+How to run the script:
+
+From Odoo, download the spreadsheet files in this order:
+
+1.- All the Open tickets 
+2.- All the Open AND Breached tickets
+3.- All the opened tickets on the last 24-72 hours.
+
+*PLEASE MAKE SURE THE DOWNLOADED EXCEL FILES ARE NOT CORRUPTED.
+
+** REMEMBER, if Odoo says 1-50/200 tickets on the filter bar, you have to change it to 1-200/200
+to download everything. **
+
+Strictly download the spreadsheets in that order. The script won't work otherwise. 
+
+-- Once those three files have been downloaded, copy and paste them on this folder. 
+---- Move the Summary Backup jobs csv file to this folder too.
+------Then, double click on the 'do_report' file. That's it. Ace that meeting. 
